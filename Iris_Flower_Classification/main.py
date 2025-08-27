@@ -1,4 +1,4 @@
-# Iris Flower Classification - Final Version
+# Iris Flower Classification
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
