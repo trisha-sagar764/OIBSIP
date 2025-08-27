@@ -18,17 +18,13 @@ The project uses the famous Iris dataset which contains:
 - Target variable: Species (setosa, versicolor, virginica)
 
 ## Project Structure
-Iris_Flower_Classification/
-├── main.py #Main script that runs the complete project
-├──data/
-    ├── iris.csv # Dataset file
-├── results/ #Folder for output visualizations
-    ├── confusion_matrix.png
-    ├── correlation_heatmap.png
-    ├── feature_distribution.png
-├── iris_classifier.pkl #Saved trained model (created after running)
-├── requirements.txt #Python dependencies
-└── README.md # Project documentation
+
+- `main.py` - Main script that runs the complete project
+- `requirements.txt` - Python dependencies
+- `data/iris.csv` - Iris dataset 
+- `results/` - Folder for output visualizations
+- `iris_classifier.pkl` - Saved trained model (created after running)
+- `scaler.pkl` - Saved data scaler (created after running)
 
 
 ## Technologies Used
