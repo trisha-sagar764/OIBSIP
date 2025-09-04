@@ -18,3 +18,32 @@ This project analyzes unemployment trends in India with a focus on the COVID-19 
 - **Jupyter** - Interactive development (optional)
 
 ## 📁 Project Structure
+Unemployment_Analysis/
+│
+├── data/
+│ ├── Unemployment in India.csv
+│ └── Unemployment_Rate_upto_11_2020.csv
+│
+├── src/
+│ └── unemployment_analysis.py
+│
+├── outputs/
+│ ├── unemployment_trend.png
+│ ├── unemployment_by_region.png
+│ ├── unemployment_by_area.png
+│ ├── employment_vs_unemployment.png
+│ ├── participation_vs_unemployment.png
+│ └── covid_impact.png
+│
+├── results/
+│ └── combined_unemployment_data.csv
+│
+├── README.md
+└── requirements.txt
+
+
+## 🚀 Installation & Setup
+1. Clone the repository:
+```bash
+git clone https://github.com/trisha-sagar764/OIBSIP.git
+cd OIBSIP/Unemployment_Analysis
