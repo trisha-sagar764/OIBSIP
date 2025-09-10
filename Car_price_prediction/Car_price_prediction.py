@@ -1,4 +1,4 @@
-# Car Price Prediction with Machine Learning - Fixed Version
+# Car Price Prediction with Machine Learning 
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -15,7 +15,6 @@ def load_data():
     df = pd.read_csv('car data.csv')
     return df
 
-# Simplified preprocessing (removing problematic features)
 def preprocess_data(df):
     # Create a copy
     df_processed = df.copy()
@@ -33,7 +32,7 @@ def preprocess_data(df):
     df_processed['Transmission_Encoded'] = le_transmission.fit_transform(df_processed['Transmission'])
     df_processed['Selling_type_Encoded'] = le_selling_type.fit_transform(df_processed['Selling_type'])
     
-    # Select only reliable features (remove Price_Ratio as it causes data leakage)
+    # Select only reliable features 
     features = ['Present_Price', 'Driven_kms', 'Owner', 'Car_Age', 
                 'Fuel_Type_Encoded', 'Transmission_Encoded', 'Selling_type_Encoded']
     
@@ -282,4 +281,5 @@ def main():
     print("=" * 60)
 
 if __name__ == "__main__":
+
     main()
